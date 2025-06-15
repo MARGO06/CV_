@@ -66,11 +66,7 @@ li.work {
 .information__personal {
   width: 30%;
 }
-@media (max-width: 800px) {
-  .information__personal {
-    display: none;
-  }
-}
+
 .information {
   width: 70%;
 }
@@ -170,4 +166,13 @@ h3 {
 
 li:first-child {
   margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  .information__personal {
+    display: none;
+  }
+  .information {
+    width: 100%;
+  }
 }
