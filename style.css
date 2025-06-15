@@ -123,6 +123,12 @@ ul {
   width: 90%;
 }
 
+@media (min-width: 1025px) {
+  .head__img {
+    display: block;
+  }
+}
+
 .contacts {
   padding-left: 50px;
 }
